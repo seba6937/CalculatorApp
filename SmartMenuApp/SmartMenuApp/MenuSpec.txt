@@ -1,0 +1,7 @@
+﻿﻿﻿<Smart menu gruppe 8>
+<(Skriv et tal der svarer til det menupunkt du vil indlæse og skriv 0 for at afslutte)>
+<Add>;<1>
+<Substract>;<2>
+<Multiply>;<3>
+<Divide>;<4>
+<Maximum>;<5>

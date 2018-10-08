@@ -14,22 +14,28 @@ namespace SmartMenuApp
             switch (number)
             {
                 case 1:
+                    Console.WriteLine("skriv 2 tal seperaret med enter: ");
                     return Calculator.Add(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine())).ToString();
 
                 case 2:
+                    Console.WriteLine("skriv 2 tal seperaret med enter: ");
                     return Calculator.Subtract(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine())).ToString();
 
                 case 3:
+                    Console.WriteLine("skriv 2 tal seperaret med enter: ");
                     return Calculator.Multiply(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine())).ToString();
 
                 case 4:
+                    Console.WriteLine("skriv 2 tal seperaret med enter: ");
                     return Calculator.Divide(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine())).ToString();
                 case 5:
                     Console.WriteLine("Skriv nogle tal:");
                     List<double> numbersMax = new List<double>();
-                    while (Console.ReadLine() != "")
+                    while (Console.ReadLine() != null)
                     {
-                        numbersMax.Add(double.Parse(Console.ReadLine()));
+                        double addNumbers;
+                        double.TryParse(Console.ReadLine(), out addNumbers);
+                        numbersMax.Add(addNumbers);
                     }
                     return Calculator.Maximum(numbersMax.ToArray()).ToString();
                 case 6:
