@@ -5,3 +5,6 @@
 <Multiply>;<3>
 <Divide>;<4>
 <Maximum>;<5>
+<Minimum>;<6>
+<Average>;<7>
+<Sum>;<8>

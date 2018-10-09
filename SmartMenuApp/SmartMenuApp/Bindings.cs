@@ -29,7 +29,7 @@ namespace SmartMenuApp
                     Console.WriteLine("skriv 2 tal seperaret med enter: ");
                     return Calculator.Divide(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine())).ToString();
                 case 5:
-                    Console.WriteLine("Skriv nogle tal:");
+                    Console.WriteLine("Skriv nogle tal: ");
                     List<double> numbersMax = new List<double>();
                     while (Console.ReadLine() != null)
                     {
