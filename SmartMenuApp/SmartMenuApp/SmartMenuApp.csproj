@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Calculator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Calculator\SmartMenuLibrary\Calculator\bin\Debug\Calculator.dll</HintPath>
+    </Reference>
     <Reference Include="SmartMenuLibrary">
       <HintPath>..\..\..\Calculator\SmartMenuLibrary\SmartMenuLibrary\bin\Debug\SmartMenuLibrary.dll</HintPath>
     </Reference>
@@ -52,12 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CalculatorLibrary\CalculatorLibrary.csproj">
-      <Project>{c41883bd-f423-4cb5-bcc8-ba6b36246ac1}</Project>
-      <Name>CalculatorLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="MenuSpec.txt">
