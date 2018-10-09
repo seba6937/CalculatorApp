@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SmartMenuLibrary;
 
-namespace SmartMenuApp
+namespace CalculatorApp
 {
     class Program
     {

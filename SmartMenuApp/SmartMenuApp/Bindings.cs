@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CalculatorLibrary;
 
-namespace SmartMenuApp
+namespace CalculatorApp
 {
     public class Bindings
     {
