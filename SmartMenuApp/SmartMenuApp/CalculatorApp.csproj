@@ -33,12 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Calculator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Calculator\SmartMenuLibrary\Calculator\bin\Debug\Calculator.dll</HintPath>
+    <Reference Include="Calculator">
+      <HintPath>..\..\..\..\..\..\Downloads\seba6937\Calculator\SmartMenuLibrary\Calculator\bin\Debug\Calculator.dll</HintPath>
     </Reference>
     <Reference Include="SmartMenuLibrary">
-      <HintPath>..\..\..\Calculator\SmartMenuLibrary\SmartMenuLibrary\bin\Debug\SmartMenuLibrary.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\seba6937\Calculator\SmartMenuLibrary\SmartMenuLibrary\bin\Debug\SmartMenuLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
